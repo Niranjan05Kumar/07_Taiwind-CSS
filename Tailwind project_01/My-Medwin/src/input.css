@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+:root {
+    --primary-color: #fb6818;
+    --accent-color: #3f83f8;
+    --text-color: #222222;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #ddd;
+    --gray: #767676;
+    --dark-gray: #252525;
+    --sky-blue: #0cb7d6;
+    --color-regal-blue: #243c5a;
+}
+@theme {
+    --color-regal-blue: #243c5a; 
+    --color-primary-color: #fb6818;
+    --color-accent-color: #3f83f8;
+    --color-text-color: #222222;
+    --color-link-color: #2563eb;
+    --color-background-color: #ffffff;
+    --color-light-gray: #ddd;
+    --color-gray: #767676;
+    --color-dark-gray: #252525;
+    --color-sky-blue: #0cb7d6;
+
+    --five-padding: 10%;
+    --five-margin:10%;
+
+    --font-my:  "Roboto", sans-serif;
+
+
+}
+
+
+
+/* for swiper */
+.card-item{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin:0 auto;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    overlay: visible;
+}
+.card-item img{
+    position: relative;
+    top: -25px;
+    width: 95%;
+    z-index: 99;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .card-item{
+        width: 70%;
+    }
+}
+
+
+/* for our testimonial */
+.my-card .card-item-testimonial{
+    width: 95%;
+    margin: 15px auto;
+    padding: 35px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 6px;
+}
