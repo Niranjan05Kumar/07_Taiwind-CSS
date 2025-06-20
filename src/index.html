@@ -1,30 +1,35 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MY MedWin</title>
-  <link href="./output.css" rel="stylesheet">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="stylesheet" href="input.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedWin</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="input.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
 
     <!-- top header section start -->
     <div class="hidden md:bg-[#0cb7d6] md:py-6 md:flex">
         <ul class="flex justify-between w-8/10 mx-auto">
-            <li class="text-[18px] text-(--background-color) flex justify-center items-center gap-2  hover:text-[#222222] duration-300 ease-in">
+            <li
+                class="cursor-pointer text-[18px] text-(--background-color) flex justify-center items-center gap-2  hover:text-[#222222] duration-300 ease-in">
                 <i class='bx bxs-phone'></i>
                 <span>call: +01 1234567890</span>
             </li>
-            <li class="text-[18px] text-(--background-color) flex justify-center items-center gap-2 hover:text-[#222222] duration-300 ease-in">
+            <li
+                class="cursor-pointer text-[18px] text-(--background-color) flex justify-center items-center gap-2 hover:text-[#222222] duration-300 ease-in">
                 <i class='bx bx-envelope'></i>
                 <span>demo@gmail.com</span>
             </li>
-            <li class="text-[18px] text-(--background-color) flex justify-center items-center gap-2 hover:text-[#222222] duration-300 ease-in">
+            <li
+                class="cursor-pointer text-[18px] text-(--background-color) flex justify-center items-center gap-2 hover:text-[#222222] duration-300 ease-in">
                 <i class='bx bxs-location-plus'></i>
                 <span>Location</span>
             </li>
@@ -33,13 +38,15 @@
     <!-- top header section end -->
 
     <!-- Header section start -->
-    <header class="w-full flex flex-col gap-10 bg-[url(/images/banner-bg.png)] bg-cover bg-center h-auto pt-5 md:pt-10 pb-50 px-(--five-padding)">
+    <header
+        class="header-bg w-full flex flex-col gap-10 bg-cover bg-center h-auto pt-5 md:pt-10 pb-50 px-(--five-padding)">
 
         <div class="flex mx-auto w-full justify-between items-center">
             <h2 class="md:mx-auto text-4xl md:text-5xl font-extrabold text-sky-blue">
                 <a href="#">MEDWIN</a>
             </h2>
-            <menu class="md:hidden text-4xl md:text-5xl font-extrabold px-2 rounded-[4px] h-8 bg-background-color text-sky-blue flex justify-center items-center hover:bg-sky-blue hover:text-background-color duration-500 ease-in-out">
+            <menu
+                class="md:hidden text-4xl md:text-5xl font-extrabold px-2 rounded-[4px] h-8 bg-background-color text-sky-blue flex justify-center items-center hover:bg-sky-blue hover:text-background-color duration-500 ease-in-out">
                 <i class='bx bx-menu'></i>
             </menu>
         </div>
@@ -91,17 +98,20 @@
                 WE CARE OF YOU
             </h2>
             <p class="mx-auto text-center w-full text-background-color sm:w-7/10">
-                When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to
             </p>
         </div>
-        <button class="bg-sky-blue mx-auto py-2.5 px-10 rounded-[5px] text-background-color font-semibold hover:bg-background-color hover:text-dark-gray duration-500">
+        <button
+            class="cursor-pointer bg-sky-blue mx-auto py-2.5 px-10 rounded-[5px] text-background-color font-semibold hover:bg-background-color hover:text-dark-gray duration-500">
             READ MORE
         </button>
     </header>
     <!-- Header section end -->
 
     <!-- Appointment section start -->
-    <form class="w-auto mx-(--five-margin) mb-4 px-5 py-8 pb-12 bg-background-color grid gap-5 md:grid-cols-3 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-4 shadow-[0_5px_15px_rgba(0,0,0,0.5)] relative top-[-150px] ">
+    <form
+        class="w-auto mx-(--five-margin) mb-4 px-5 py-8 pb-12 bg-background-color grid gap-5 md:grid-cols-3 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-4 shadow-[0_5px_15px_rgba(0,0,0,0.5)] relative top-[-150px] ">
         <h3 class="text-2xl font-extrabold pb-7 md:pb-0 md:col-span-3 sm:col-span-2">
             <span>BOOK</span>
             <span class="text-sky-blue">APPOINTMENT</span>
@@ -120,7 +130,7 @@
         </div>
         <div class="flex flex-col w-full gap-3 text-gray text-[18px]">
             <label>Doctor's Name</label>
-            <select  class="ring-1 w-full rounded-[5px] h-12 px-4 appearance-none">
+            <select class="ring-1 w-full rounded-[5px] h-12 px-4 appearance-none">
                 <option value="1">Doctor 1</option>
                 <option value="2">Doctor 2</option>
                 <option value="3">Doctor 3</option>
@@ -153,14 +163,17 @@
         <div class="w-full md:w-1/2 flex flex-col gap-12 justify-start">
             <h2 class="text-3xl font-extrabold text-text-color">About Hospital</h2>
             <p class="text-gray text-[18px]">
-                has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors has a more-or-less normal distribution of letters, as o 
+                has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                making it look like readable English. Many desktop publishing packages and web page editors has a
+                more-or-less normal distribution of letters, as o
             </p>
-            <button class="bg-text-color mx-auto py-2.5 px-10 rounded-[5px] text-background-color font-semibold hover:bg-sky-blue duration-500 ml-0">
+            <button
+                class="cursor-pointer bg-text-color mx-auto py-2.5 px-10 rounded-[5px] text-background-color font-semibold hover:bg-sky-blue duration-500 ml-0">
                 READ MORE
             </button>
         </div>
         <div class="w-full md:w-1/2 md:h-1/2">
-            <img src="/images/about-img.png" alt="Hospital">
+            <img src="images/about-img.png" alt="Hospital">
         </div>
     </div>
     <!-- About Hospital section end -->
@@ -177,9 +190,10 @@
                     Nephrologist Care
                 </h2>
                 <p class="text-text-color">
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly e
+                    sure there isn't anything
                 </p>
-                <button class="ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
+                <button class="cursor-pointer ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
                     READ MORE
                 </button>
             </div>
@@ -187,9 +201,9 @@
                 <h1 class="text-6xl font-semibold text-dark-gray font-my">02</h1>
                 <h2 class="text-2xl font-bold">Eye Care</h2>
                 <p class="text-text-color"></p>
-                    alteration in some form, by injected humour, or randomised words which don't look even
+                alteration in some form, by injected humour, or randomised words which don't look even
                 </p>
-                <button class="ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
+                <button class="cursor-pointer ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
                     READ MORE
                 </button>
             </div>
@@ -197,9 +211,9 @@
                 <h1 class="text-6xl font-semibold text-dark-gray font-my">03</h1>
                 <h2 class="text-2xl font-bold">Pediatrician Clinic</h2>
                 <p class="text-text-color"></p>
-                    alteration in some form, by injected humour, or randomised words which don't look even
+                alteration in some form, by injected humour, or randomised words which don't look even
                 </p>
-                <button class="ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
+                <button class="cursor-pointer ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
                     READ MORE
                 </button>
             </div>
@@ -207,9 +221,9 @@
                 <h1 class="text-6xl font-semibold text-dark-gray font-my">04</h1>
                 <h2 class="text-2xl font-bold">Prenatal Care</h2>
                 <p class="text-text-color"></p>
-                    alteration in some form, by injected humour, or randomised words which don't look even
+                alteration in some form, by injected humour, or randomised words which don't look even
                 </p>
-                <button class="ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
+                <button class="cursor-pointer ring-1 py-2.5 px-6 text-xl hover:text-sky-blue duration-300 ease-in">
                     READ MORE
                 </button>
             </div>
@@ -223,65 +237,65 @@
             OUR DOCTORES
         </h2>
         <div class="swiper-container swiper mb-10">
-            
-                <div class="card-list swiper-wrapper">
 
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item">
-                            <img src="/images/img-1.png" alt="avtar">
-                            <h2 class="text-sky-blue font-bold text-3xl">
-                                Humour
-                            </h2>
-                            <h3 class="text-sky-blue font-bold text-[20px]">
-                                MBBS
-                            </h3>
-                            <div class="flex gap-3 text-3xl">
-                                <i class='bx bxl-facebook'></i>
-                                <i class='bx bxl-instagram'></i>
-                                <i class='bx bxl-twitter'></i>
-                                <i class='bx bxl-linkedin'></i>
-                            </div>
+            <div class="card-list swiper-wrapper">
+
+                <div class="my-card swiper-slide ">
+                    <div class="card-item">
+                        <img src="images/img-1.png" alt="avtar">
+                        <h2 class="text-sky-blue font-bold text-3xl">
+                            Humour
+                        </h2>
+                        <h3 class="text-sky-blue font-bold text-[20px]">
+                            MBBS
+                        </h3>
+                        <div class="flex gap-3 text-3xl">
+                            <i class='bx bxl-facebook cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-instagram cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-twitter cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-linkedin cursor-pointer hover-icon'></i>
                         </div>
                     </div>
-
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item">
-                            <img src="/images/img-2.png" alt="avtar">
-                            <h2 class="text-sky-blue font-bold text-3xl">
-                                Jenni
-                            </h2>
-                            <h3 class="text-sky-blue font-bold text-[20px]">
-                                MBBS
-                            </h3>
-                            <div class="flex gap-3 text-3xl">
-                                <i class='bx bxl-facebook'></i>
-                                <i class='bx bxl-instagram'></i>
-                                <i class='bx bxl-twitter'></i>
-                                <i class='bx bxl-linkedin'></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item">
-                            <img src="/images/img-3.png" alt="avtar">
-                            <h2 class="text-sky-blue font-bold text-3xl">
-                                Morco
-                            </h2>
-                            <h3 class="text-sky-blue font-bold text-[20px]">
-                                MBBS
-                            </h3>
-                            <div class="flex gap-3 text-3xl">
-                                <i class='bx bxl-facebook'></i>
-                                <i class='bx bxl-instagram'></i>
-                                <i class='bx bxl-twitter'></i>
-                                <i class='bx bxl-linkedin'></i>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-    
+
+                <div class="my-card swiper-slide ">
+                    <div class="card-item">
+                        <img src="images/img-2.png" alt="avtar">
+                        <h2 class="text-sky-blue font-bold text-3xl">
+                            Jenni
+                        </h2>
+                        <h3 class="text-sky-blue font-bold text-[20px]">
+                            MBBS
+                        </h3>
+                        <div class="flex gap-3 text-3xl">
+                            <i class='bx bxl-facebook cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-instagram cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-twitter cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-linkedin cursor-pointer hover-icon'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-card swiper-slide ">
+                    <div class="card-item">
+                        <img src="images/img-3.png" alt="avtar">
+                        <h2 class="text-sky-blue font-bold text-3xl">
+                            Morco
+                        </h2>
+                        <h3 class="text-sky-blue font-bold text-[20px]">
+                            MBBS
+                        </h3>
+                        <div class="flex gap-3 text-3xl">
+                            <i class='bx bxl-facebook cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-instagram cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-twitter cursor-pointer hover-icon'></i>
+                            <i class='bx bxl-linkedin cursor-pointer hover-icon'></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
             <!-- left-right arrow -->
             <!-- <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div> -->
@@ -289,72 +303,84 @@
     </section>
     <!-- our doctor section end -->
 
-    <!-- our doctor section start -->
+    <!-- OUR TESTIMONIAL section start -->
     <section class="pb-5 px-(--five-padding)">
         <h2 class="text-[30px] text-black font-bold py-20">
             OUR TESTIMONIAL
         </h2>
         <div class="swiper-container swiper mb-10">
-            
-                <div class="card-list swiper-wrapper">
 
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item-testimonial">
-                            <div class="flex w-full justify-between">
-                                <h2 class="text-2xl text-sky-blue font-bold">
-                                    Morijorch 
-                                </h2>
-                                <img src="/images/quick-icon.png" alt="quick-icon" class="h-5">
-                            </div>
-                            <span class="text-gray">
-                                Default model text,
-                            </span>
-                            <p class="pt-3 text-dark-gray">
-                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                            </p>
-                        </div>
-                    </div>
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item-testimonial">
-                            <div class="flex w-full justify-between">
-                                <h2 class="text-2xl text-sky-blue font-bold">
-                                    Morijorch 
-                                </h2>
-                                <img src="/images/quick-icon.png" alt="quick-icon" class="h-5">
-                            </div>
-                            <span class="text-gray">
-                                Default model text,
-                            </span>
-                            <p class="pt-3 text-dark-gray">
-                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                            </p>
-                        </div>
-                    </div>
-                    <div class="my-card swiper-slide ">
-                        <div class="card-item-testimonial">
-                            <div class="flex w-full justify-between">
-                                <h2 class="text-2xl text-sky-blue font-bold">
-                                    Morijorch 
-                                </h2>
-                                <img src="/images/quick-icon.png" alt="quick-icon" class="h-5">
-                            </div>
-                            <span class="text-gray">
-                                Default model text,
-                            </span>
-                            <p class="pt-3 text-dark-gray">
-                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                            </p>
-                        </div>
-                    </div>
+            <div class="card-list swiper-wrapper">
 
+                <div class="my-card swiper-slide ">
+                    <div class="card-item-testimonial">
+                        <div class="flex w-full justify-between">
+                            <h2 class="text-2xl text-sky-blue font-bold">
+                                Morijorch
+                            </h2>
+                            <img src="images/quick-icon.png" alt="quick-icon" class="h-5">
+                        </div>
+                        <span class="text-gray">
+                            Default model text,
+                        </span>
+                        <p class="pt-3 text-dark-gray">
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                            their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search
+                            for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                        </p>
+                    </div>
                 </div>
-    
+                <div class="my-card swiper-slide ">
+                    <div class="card-item-testimonial">
+                        <div class="flex w-full justify-between">
+                            <h2 class="text-2xl text-sky-blue font-bold">
+                                Morijorch
+                            </h2>
+                            <img src="images/quick-icon.png" alt="quick-icon" class="h-5">
+                        </div>
+                        <span class="text-gray">
+                            Default model text,
+                        </span>
+                        <p class="pt-3 text-dark-gray">
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                            their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search
+                            for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                        </p>
+                    </div>
+                </div>
+                <div class="my-card swiper-slide ">
+                    <div class="card-item-testimonial">
+                        <div class="flex w-full justify-between">
+                            <h2 class="text-2xl text-sky-blue font-bold">
+                                Morijorch
+                            </h2>
+                            <img src="images/quick-icon.png" alt="quick-icon" class="h-5">
+                        </div>
+                        <span class="text-gray">
+                            Default model text,
+                        </span>
+                        <p class="pt-3 text-dark-gray">
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                            their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search
+                            for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
             <!-- left-right arrow -->
             <!-- <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div> -->
         </div>
     </section>
-    <!-- our doctor section end -->
+    <!-- OUR TESTIMONIAL section end -->
 
     <!--  Get In Touch section start-->
     <section class="mb-15 px-(--five-padding) grid gap-x-5 gap-y-10 md:grid-cols-2">
@@ -363,20 +389,27 @@
             <input type="text" placeholder="Name" class="ring-1 ring-text-color py-2 px-4 text-gray">
             <input type="tel" placeholder="Phone Number" class="ring-1 ring-text-color py-2 px-4 text-gray">
             <input type="email" placeholder="Email" class="ring-1 ring-text-color py-2 px-4 text-gray">
-            <textarea name="massage" placeholder="Massage" class="ring-1 ring-text-color py-2 px-4 text-gray"></textarea>
-            <button class="py-3 px-8 w-4/10 text-xl text-background-color font-semibold bg-sky-blue hover:bg-dark-gray duration-300 ease-in">SEND</button>
+            <textarea name="massage" placeholder="Massage"
+                class="ring-1 ring-text-color py-2 px-4 text-gray"></textarea>
+            <button
+                class="cursor-pointer py-3 px-8 w-4/10 text-xl text-background-color font-semibold bg-sky-blue hover:bg-dark-gray duration-300 ease-in">SEND</button>
         </div>
         <div class="overflow-hidden">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.245748076758!2d82.98674293958396!3d25.262317329153397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e33ef9b1f7cdd%3A0x7555db6d623dc140!2sIndian%20Institute%20of%20Technology%20(BHU)%20Varanasi!5e0!3m2!1sen!2sin!4v1743084404642!5m2!1sen!2sin"  width="100%" height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.245748076758!2d82.98674293958396!3d25.262317329153397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e33ef9b1f7cdd%3A0x7555db6d623dc140!2sIndian%20Institute%20of%20Technology%20(BHU)%20Varanasi!5e0!3m2!1sen!2sin!4v1743084404642!5m2!1sen!2sin"
+                width="100%" height="470" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     <!--  Get In Touch section end-->
 
     <!-- footer section start -->
-     <footer class="bg-text-color text-background-color px-(--five-padding) pb-15 pt-20 flex flex-col gap-15">
-        <div class="flex flex-col md:flex-row gap-y-2 w-full justify-between items-center md:w-7/10 m-auto border-b pb-4">
-            <input type="email" placeholder="Enter Your Email" class="py-2 text-background-color text-xl w-full md:w-[300px]">
-            <h2 class="font-bold">
+    <footer class="bg-text-color text-background-color px-(--five-padding) pb-15 pt-20 flex flex-col gap-15">
+        <div
+            class="flex flex-col md:flex-row gap-y-2 w-full justify-between items-center md:w-7/10 m-auto border-b pb-4">
+            <input type="email" placeholder="Enter Your Email"
+                class="py-2 text-background-color text-xl w-full md:w-[300px]">
+            <h2 class="font-bold  cursor-pointer hover-icon">
                 SUBSCRIBE
             </h2>
         </div>
@@ -402,16 +435,20 @@
                 </ul>
                 <ul class="flex gap-5 text-3xl text-sky-blue">
                     <li>
-                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i
+                                class='bx bxl-facebook'></i></a>
                     </li>
                     <li>
-                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i
+                                class='bx bxl-twitter'></i></a>
                     </li>
                     <li>
-                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i
+                                class='bx bxl-linkedin'></i></a>
                     </li>
                     <li>
-                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="hover:text-background-color duration-300 ease-in"><i
+                                class='bx bxl-instagram'></i></a>
                     </li>
                 </ul>
             </div>
@@ -447,7 +484,8 @@
                     HELP & SUPPORT
                 </h2>
                 <P class="text-[18px]">
-                    Opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page 
+                    Opposed to using 'Content here, content here', making it look like readable English. Many desktop
+                    publishing packages and web page
                 </P>
             </div>
             <div class="flex flex-col gap-8">
@@ -457,17 +495,17 @@
                 </h2>
                 <ul class="flex flex-col gap-5 text-[18px]">
                     <li class="flex flex-row gap-6 items-center justify-start">
-                        <img src="/images/img-4.png">
+                        <img src="images/img-4.png">
                         <span>Normal distribution</span>
                     </li>
                     <li class="flex flex-row gap-6 items-center justify-start">
-                        <img src="/images/img-5.png">
+                        <img src="images/img-5.png">
                         <span>Normal distribution</span>
                     </li>
                 </ul>
             </div>
         </div>
-     </footer>
+    </footer>
     <!-- footer section end -->
 
 
@@ -480,4 +518,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!--  for swiper -->
     <script src="script.js"></script>
 </body>
+
 </html>

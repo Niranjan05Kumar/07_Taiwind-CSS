@@ -33,6 +33,13 @@
 
 }
 
+::selection{
+    color: #0CB7D6;
+}
+
+.header-bg{
+    background-image: url(images/banner-bg.png);
+}
 
 
 /* for swiper */
@@ -74,4 +81,13 @@
     justify-content: center;
     align-items: start;
     gap: 6px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.hover-icon:hover{
+    color: #0CB7D6;
+    transition: all 0.3s ease;
+    scale: 1.1;
 }
